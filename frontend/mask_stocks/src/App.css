@@ -5,16 +5,18 @@
 }
 
 .heading {
+  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
 }
 
-/* body {
-  background-image: url("https://cdn.thewirecutter.com/wp-content/media/2021/12/clothfacemasks-2048px-5834-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024");
+.header {
+  background-image: url("https://media.cntraveler.com/photos/6244893f79f8935aaa2eefe1/3:1/w_6249,h_2083,c_limit/Mask_GettyImages-1211156080.jpg");
+  min-height: 20vh;
   background-repeat: no-repeat;
   background-size: cover;
-} */
+}
 
 nav.imageWrapper {
   position: relative;
@@ -31,4 +33,16 @@ nav.imageWrapper div.img {
   background-size: cover;
   background: url("https://cdn.thewirecutter.com/wp-content/media/2021/12/clothfacemasks-2048px-5834-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024");
   z-index: -1;
+}
+.heading,
+#table,
+body,
+html {
+  background-color: rgb(25, 25, 25);
+}
+
+.buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

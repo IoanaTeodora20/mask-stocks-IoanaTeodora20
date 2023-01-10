@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate } from "react-router-dom";
-// import Image from "react-bootstrap/Image";
+import Image from "react-bootstrap/Image";
 
 function Header() {
   const [user, setUser] = useState([]);
@@ -51,12 +51,7 @@ function Header() {
 
   return (
     <>
-      {/* <div style={{ width: "30%" }}>
-        <Image
-          src="https://cdn.thewirecutter.com/wp-content/media/2021/12/clothfacemasks-2048px-5834-2x1-1.jpg?auto=webp&quality=75&crop=2:1&width=1024"
-          fluid={true}
-        />
-      </div> */}
+      <div className="header"></div>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">MASK_STOCKS</Navbar.Brand>

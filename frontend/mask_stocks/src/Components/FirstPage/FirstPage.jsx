@@ -3,11 +3,11 @@ function FirstPage() {
   return (
     <>
       <Header></Header>
-      <br />
-      <br />
-      <br />
-      <br />
-      <div>
+      <div style={{ backgroundColor: "#191919" }}>
+        <br />
+        <br />
+        <br />
+        <br />
         <h1 className="heading" size="lg">
           Welcome to Mask-Stocks!
         </h1>
