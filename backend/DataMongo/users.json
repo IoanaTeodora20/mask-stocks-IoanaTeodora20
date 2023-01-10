@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Kende Gergely",
+    "email": "kende1@gmail.com",
+    "password": "$2a$10$CRHrOC1Ehj3AQh1bHOkTmOu8ELR0lycCiSTinTM2fHDAXy093oW7S",
+    "address": "Piroska u. 56",
+    "zip_code": "7763",
+    "city": "Szôkéd",
+    "country": "Hungary",
+    "hospitals": [
+      { "name": "Pécsi Irgalmasrendi Kórház" },
+      { "name": "The Helios Hospital Berlin-Buch" }
+    ]
+  },
+  {
+    "name": "Balla Mihály",
+    "email": "balla1@gmail.com",
+    "password": "$2a$10$Cv3hdNkzLY6LQQe/ki5O5.Pi8U0UtnjiK9jgHh2VF.ucv1ps4F4LK",
+    "address": "Baross tér 18",
+    "zip_code": "3735",
+    "city": "Alsótelekes",
+    "country": "Hungary",
+    "hospitals": [
+      { "name": "Pécsi Irgalmasrendi Kórház" },
+      { "name": "The University Hospital Duesseldorf" }
+    ]
+  },
+  {
+    "name": "Vincze Szabolcs",
+    "email": "vincze1@gmail.com",
+    "password": "$2a$10$iF4Rgm8l6g/ZtPdxzOm.L.lVEI8Hh1ZAmWW1jkL46GM8yeO2N67K.",
+    "address": "Piroska u. 13",
+    "zip_code": "7761",
+    "city": "Kozármisleny",
+    "country": "Hungary",
+    "hospitals": [
+      { "name": "Fővárosi Önkormányzat Heim Pál Gyermekkórház" },
+      { "name": "The Helios Hospital Berlin-Buch" }
+    ]
+  },
+  {
+    "name": "Illés Nóra",
+    "email": "illes1@gmail.com",
+    "password": "$2a$10$Vm8dITa9w7f5emX.KqWKMOY1eH9TYxxmY0v.XVMBPvNy6tbLVEtwe",
+    "address": "Veres Pálné u. 60",
+    "zip_code": "5703",
+    "city": "Gyula",
+    "country": "Hungary",
+    "hospitals": [
+      { "name": "Pécsi Irgalmasrendi Kórház" },
+      {
+        "name": "The University Hospital of Ludwig Maximilian University of Munich "
+      }
+    ]
+  },
+  {
+    "name": "Nagy Anita",
+    "email": "nagy1@gmail.com",
+    "password": "$2a$10$8OyiyFIlaUL8F7p9lLKtUeHUzoOJG42TUsKZIemYyqUdqBpnDuN9e",
+    "address": "Árpád fejedelem útja 8",
+    "zip_code": "1139",
+    "city": "Budapest",
+    "country": "Hungary",
+    "hospitals": [
+      { "name": "Fővárosi Önkormányzat Heim Pál Gyermekkórház" },
+      { "name": "Markhot Ferenc Oktatókórház és Rendelőintézet" }
+    ]
+  },
+  {
+    "name": "Matthias Mannheim",
+    "email": "manheim1@gmail.com",
+    "password": "$2a$10$foChe5MSyyoPmOAVwt.80eZj1R9QmgdwJl6gc96AkIjXu1OOn6jVG",
+    "address": "Hochstrasse 90",
+    "zip_code": "",
+    "city": "Wenningstedt",
+    "country": "Germany",
+    "hospitals": [
+      {
+        "name": "The University Hospital of Ludwig Maximilian University of Munich "
+      },
+      {
+        "name": "Miskolci Semmelweis Ignác Egészségügyi Központ és Egyetemi Oktatókórház"
+      }
+    ]
+  },
+  {
+    "name": "Eleonore Schulte",
+    "email": "schulte1@gmail.com",
+    "password": "$2a$10$gBqxne6qg/0uVJIBmJmIF.Hm9Y/Wb.MZmT4wRGbMg1spj2kLgNtX.",
+    "address": "Charlottenstraße 47",
+    "zip_code": "34480",
+    "city": "Duesseldorf",
+    "country": "Germany",
+    "hospitals": [
+      {
+        "name": "Miskolci Semmelweis Ignác Egészségügyi Központ és Egyetemi Oktatókórház"
+      },
+      { "name": "The University Hospital Duesseldorf" }
+    ]
+  },
+  {
+    "name": "Ramona Thiel",
+    "email": "thiel1@gmail.com",
+    "password": "$2a$10$7RA1B4ToDxMnlTY.yb6OBeE2AaUVprWdptmRJuJrJZhDOtn/cpVPy",
+    "address": "Hoheluftchaussee 51",
+    "zip_code": "04611",
+    "city": "Lucka",
+    "country": "Germany",
+    "hospitals": [
+      { "name": "Szent Pantaleon Kórház Kht." },
+      { "name": "Rigas Austrumu Kliniskas Universitates" }
+    ]
+  },
+  {
+    "name": "Audris Strautiņš",
+    "email": "strautiņš1@gmail.com",
+    "password": "$2a$10$l3w/zqNdjQzpo6Bka1Qb0eBBLeiyZ/jbiNl9TTUyh5c9hXeLOPXTK",
+    "address": "Mersraga, bld. 9",
+    "zip_code": "LV-3284",
+    "city": "Riga",
+    "country": "Latvia",
+    "hospitals": [
+      { "name": "Rigas Austrumu Kliniskas Universitate" },
+      { "name": "Szent Pantaleon Kórház Kht." }
+    ]
+  },
+  {
+    "name": "Ella Forslund",
+    "email": "forslund1@gmail.com",
+    "password": "$2a$10$lyQc9rzCvFIp0p.Z0Fv7kusXUYBsFndRe3fsZ/fh3KmYdQEPO/sky",
+    "address": "Björkvägen 70",
+    "zip_code": "305 10",
+    "city": "Holm",
+    "country": "Swened",
+    "hospitals": [
+      { "name": "Karolinska University Hospital" },
+      { "name": "The University Hospital Duesseldorf" }
+    ]
+  }
+]
