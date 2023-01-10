@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Header/Header";
 import HospitalTable from "../HospitalTable/HospitalTable";
+import Button from "react-bootstrap/Button";
 
 function Home() {
   const [hospitalData, setHospitalData] = useState([]);
@@ -39,22 +40,32 @@ function Home() {
   return (
     <>
       <Header></Header>
-      <br />
-      <br />
-      <br />
-      <div className="heading">
-        <h1>Mask Stocks</h1>
+      <div style={{ backgroundColor: "#191919" }}>
+        <br />
+        <br />
+        <div className="heading">
+          <h1>Mask Stocks</h1>
+        </div>
+        <br />
+        <div className="heading">
+          <h3>Bellow, you will find your registered hospitals.</h3>
+        </div>
+        <br />
+        {loginState && hospitalData ? (
+          <>
+            {/* <br /> */}
+            <HospitalTable list={hospitalData}></HospitalTable>
+          </>
+        ) : null}
+        <br />
+        <h4 className="heading">
+          To find out more about our masks, press the button.
+        </h4>
+        <br />
+        <div className="buttons">
+          <Button variant="outline-light">Order</Button>
+        </div>
       </div>
-      <br />
-      <div className="heading">
-        <h3>Bellow, you will find your registered hospitals.</h3>
-      </div>
-      {loginState && hospitalData ? (
-        <>
-          <br />
-          <HospitalTable list={hospitalData}></HospitalTable>
-        </>
-      ) : null}
     </>
   );
 }

@@ -47,59 +47,62 @@ function LoginForm() {
   return (
     <>
       <Header></Header>
-      <div className="mt-5 d-flex justify-content-center">
-        <Card>
-          <h3 className="mt-4 d-flex justify-content-center align-self-center">
-            Login
-          </h3>
-          <Card.Body>
-            <Form
-              className="mt-4"
-              style={{
-                textAlign: "center",
-                minHeight: "30vh",
-                minWidth: "20vw",
-              }}>
-              <Form.Group className="mb-3" controlId="formBasicUsername">
-                <Form.Label>Email</Form.Label>
-                <Form.Control
-                  type="text"
-                  placeholder="JohnSmith"
-                  onChange={(event) =>
-                    handleLoginData({ username: event.target.value })
-                  }
-                />
-              </Form.Group>
-              <br></br>
-              <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
-                <Form.Control
-                  type="password"
-                  placeholder="Password"
-                  onChange={(event) =>
-                    handleLoginData({ password: event.target.value })
-                  }
-                />
-              </Form.Group>
-              {error ? (
-                <>
-                  <br></br>
-                  <Form.Label> Wrong Credentials!</Form.Label>
-                </>
-              ) : (
-                ""
-              )}
-              <Form.Group
-                className="mb-3"
-                controlId="formBasicCheckbox"></Form.Group>
-              <br></br>
-              <Button
-                variant="outline-danger"
-                type="submit"
-                onClick={(event) => handleLoginClick(event)}>
-                Login
-              </Button>
-              {/* <div className="mt-5">
+      <div style={{ backgroundColor: "#191919" }}>
+        <br />
+        <br />
+        <div className="d-flex justify-content-center">
+          <Card>
+            <h3 className="mt-4 d-flex justify-content-center align-self-center">
+              Login
+            </h3>
+            <Card.Body>
+              <Form
+                className="mt-4"
+                style={{
+                  textAlign: "center",
+                  minHeight: "30vh",
+                  minWidth: "20vw",
+                }}>
+                <Form.Group className="mb-3" controlId="formBasicUsername">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control
+                    type="text"
+                    placeholder="JohnSmith"
+                    onChange={(event) =>
+                      handleLoginData({ username: event.target.value })
+                    }
+                  />
+                </Form.Group>
+                <br></br>
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control
+                    type="password"
+                    placeholder="Password"
+                    onChange={(event) =>
+                      handleLoginData({ password: event.target.value })
+                    }
+                  />
+                </Form.Group>
+                {error ? (
+                  <>
+                    <br></br>
+                    <Form.Label> Wrong Credentials!</Form.Label>
+                  </>
+                ) : (
+                  ""
+                )}
+                <Form.Group
+                  className="mb-3"
+                  controlId="formBasicCheckbox"></Form.Group>
+                <br></br>
+                <Button
+                  variant="outline-danger"
+                  type="submit"
+                  onClick={(event) => handleLoginClick(event)}>
+                  Login
+                </Button>
+                {/* <div className="mt-5">
                 <h5> Don't have an account?</h5>
                 <Button
                   href="/register"
@@ -109,9 +112,10 @@ function LoginForm() {
                   Register Here
                 </Button>
               </div> */}
-            </Form>
-          </Card.Body>
-        </Card>
+              </Form>
+            </Card.Body>
+          </Card>
+        </div>
       </div>
     </>
   );
