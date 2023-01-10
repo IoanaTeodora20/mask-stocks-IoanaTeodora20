@@ -1,192 +1,192 @@
 [
-  {
-    "name": "Pécsi Irgalmasrendi Kórház",
-    "address": "Irgalmasok utcája 1",
-    "zip_code": "7621",
-    "city": "Pécs",
-    "country": "Hungary",
-    "users": [
-      { "email": "kenede1@gmail.com", "admin": true },
-      { "email": "balla1@gmail.com", "admin": true },
-      { "email": "illes1@gmail.com", "admin": true },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Miskolci Semmelweis Ignác Egészségügyi Központ és Egyetemi Oktatókórház",
-    "address": "Csabai kapu 9-11",
-    "zip_code": "3529",
-    "city": "Miskolc",
-    "country": "Hungary",
-    "users": [
-      { "email": "schulte1@gmail.com", "admin": true },
-      { "email": "manheim1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Szent Pantaleon Kórház Kht.",
-    "address": "Korányi Sándor u. 4-6",
-    "zip_code": "2400",
-    "city": "Dunaújváros",
-    "country": "Hungary",
-    "users": [
-      { "email": "strautiņš1@gmail.com", "admin": true },
-      { "email": "thiel1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Markhot Ferenc Oktatókórház és Rendelőintézet",
-    "address": "Markhót Ferenc u. 1",
-    "zip_code": "3300",
-    "city": "Eger",
-    "country": "Hungary",
-    "users": [
-      { "email": "nagy1@gmail.com", "admin": true },
-      { "email": "forslund1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Fővárosi Önkormányzat Heim Pál Gyermekkórház",
-    "address": "Üllői út 86",
-    "zip_code": "1089",
-    "city": "Budapest",
-    "country": "Hungary",
-    "users": [
-      { "email": "vincze1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "The Helios Hospital Berlin-Buch",
-    "address": "Schwanebecker Ch 50",
-    "zip_code": "13125",
-    "city": "Berlin",
-    "country": "Germany",
-    "users": [
-      { "email": "kenede1@gmail.com", "admin": true },
-      { "email": "vincze1@gmail.com", "admin": true },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "The University Hospital Duesseldorf",
-    "address": "Universitätsklinikum Düsseldorf, Moorenstraße 5",
-    "zip_code": "40225",
-    "city": "Duesseldorf",
-    "country": "Germany",
-    "users": [
-      { "email": "balla1@gmail.com", "admin": true },
-      { "email": "schulte1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "The University Hospital of Ludwig Maximilian University of Munich",
-    "address": "Geschwister-Scholl-Platz 1",
-    "zip_code": "80539",
-    "city": "Munich",
-    "country": "Germany",
-    "users": [
-      { "email": "manheim1@gmail.com", "admin": true },
-      { "email": "illes1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Rigas Austrumu Kliniskas Universitates",
-    "address": "Hipokrāta iela 2, Vidzemes priekšpilsēta",
-    "zip_code": "LV-1038",
-    "city": "Riga",
-    "country": "Latvia",
-    "users": [
-      { "email": "strautiņš1@gmail.com", "admin": true },
-      { "email": "thiel1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "forslund1@gmail.com", "admin": false }
-    ]
-  },
-  {
-    "name": "Karolinska University Hospital",
-    "address": "Karolinska Universitetssjukhuset, Solna",
-    "zip_code": "171 76",
-    "city": "Stockholm",
-    "country": "Swened",
-    "users": [
-      { "email": "forslund1@gmail.com", "admin": true },
-      { "email": "kenede1@gmail.com", "admin": false },
-      { "email": "balla1@gmail.com", "admin": false },
-      { "email": "vincze1@gmail.com", "admin": false },
-      { "email": "illes1@gmail.com", "admin": false },
-      { "email": "nagy1@gmail.com", "admin": false },
-      { "email": "manheim1@gmail.com", "admin": false },
-      { "email": "schulte1@gmail.com", "admin": false },
-      { "email": "thiel1@gmail.com", "admin": false },
-      { "email": "strautiņš1@gmail.com", "admin": false }
-    ]
-  }
+    {
+        "name": "Pécsi Irgalmasrendi Kórház",
+        "address": "Irgalmasok utcája 1",
+        "zip_code": "7621",
+        "city": "Pécs",
+        "country": "Hungary",
+        "users": [
+            { "email": "kenede1@gmail.com", "admin": true },
+            { "email": "balla1@gmail.com", "admin": true },
+            { "email": "illes1@gmail.com", "admin": true },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Miskolci Semmelweis Ignác Egészségügyi Központ és Egyetemi Oktatókórház",
+        "address": "Csabai kapu 9-11",
+        "zip_code": "3529",
+        "city": "Miskolc",
+        "country": "Hungary",
+        "users": [
+            { "email": "schulte1@gmail.com", "admin": true },
+            { "email": "manheim1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Szent Pantaleon Kórház Kht.",
+        "address": "Korányi Sándor u. 4-6",
+        "zip_code": "2400",
+        "city": "Dunaújváros",
+        "country": "Hungary",
+        "users": [
+            { "email": "strautiņš1@gmail.com", "admin": true },
+            { "email": "thiel1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Markhot Ferenc Oktatókórház és Rendelőintézet",
+        "address": "Markhót Ferenc u. 1",
+        "zip_code": "3300",
+        "city": "Eger",
+        "country": "Hungary",
+        "users": [
+            { "email": "nagy1@gmail.com", "admin": true },
+            { "email": "forslund1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Fővárosi Önkormányzat Heim Pál Gyermekkórház",
+        "address": "Üllői út 86",
+        "zip_code": "1089",
+        "city": "Budapest",
+        "country": "Hungary",
+        "users": [
+            { "email": "vincze1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "The Helios Hospital Berlin-Buch",
+        "address": "Schwanebecker Ch 50",
+        "zip_code": "13125",
+        "city": "Berlin",
+        "country": "Germany",
+        "users": [
+            { "email": "kenede1@gmail.com", "admin": true },
+            { "email": "vincze1@gmail.com", "admin": true },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "The University Hospital Duesseldorf",
+        "address": "Universitätsklinikum Düsseldorf, Moorenstraße 5",
+        "zip_code": "40225",
+        "city": "Duesseldorf",
+        "country": "Germany",
+        "users": [
+            { "email": "balla1@gmail.com", "admin": true },
+            { "email": "schulte1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "The University Hospital of Ludwig Maximilian University of Munich",
+        "address": "Geschwister-Scholl-Platz 1",
+        "zip_code": "80539",
+        "city": "Munich",
+        "country": "Germany",
+        "users": [
+            { "email": "manheim1@gmail.com", "admin": true },
+            { "email": "illes1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Rigas Austrumu Kliniskas Universitates",
+        "address": "Hipokrāta iela 2, Vidzemes priekšpilsēta",
+        "zip_code": "LV-1038",
+        "city": "Riga",
+        "country": "Latvia",
+        "users": [
+            { "email": "strautiņš1@gmail.com", "admin": true },
+            { "email": "thiel1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "forslund1@gmail.com", "admin": false }
+        ]
+    },
+    {
+        "name": "Karolinska University Hospital",
+        "address": "Karolinska Universitetssjukhuset, Solna",
+        "zip_code": "171 76",
+        "city": "Stockholm",
+        "country": "Swened",
+        "users": [
+            { "email": "forslund1@gmail.com", "admin": true },
+            { "email": "kenede1@gmail.com", "admin": false },
+            { "email": "balla1@gmail.com", "admin": false },
+            { "email": "vincze1@gmail.com", "admin": false },
+            { "email": "illes1@gmail.com", "admin": false },
+            { "email": "nagy1@gmail.com", "admin": false },
+            { "email": "manheim1@gmail.com", "admin": false },
+            { "email": "schulte1@gmail.com", "admin": false },
+            { "email": "thiel1@gmail.com", "admin": false },
+            { "email": "strautiņš1@gmail.com", "admin": false }
+        ]
+    }
 ]

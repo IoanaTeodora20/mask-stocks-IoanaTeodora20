@@ -1,43 +1,35 @@
-// ---- importing the schemas and the data to fill the database ----
-// import { connect } from "mongoose";
-// import { readFileSync } from "fs";
+const mongoose = require("mongoose");
+const fs = require("fs");
 
-// connect("mongodb+srv://admin:1234@maskstock.cpxqr71.mongodb.net/test", () => {
-//   console.log("Connected to MongoDB");
-// });
+mongoose
+    .set("strictQuery", true)
+    .connect(
+        "mongodb+srv://admin:1234@maskstock.cpxqr71.mongodb.net/test",
+        () => {
+            console.log("Connected to MongoDB");
+        }
+    );
 
-// import Hospital from "../ModelSchemas/hospitalSchema.js";
-// import dataHospital from "./hospitals.json" assert { type: "json" };
+const Hospital = require("../ModelSchemas/hospitalSchema.js");
+const User = require("../ModelSchemas/userSchema.js");
+const Product = require("../ModelSchemas/productSchema.js");
 
-// import User from "../ModelSchemas/userSchema.js";
-// import dataUser from "./users.json" assert { type: "json" };
+async function sendDataIntoMongo() {
+    await Hospital.deleteMany();
+    await User.deleteMany();
+    await Product.deleteMany();
 
-// import Product from "../ModelSchemas/productSchema.js";
-// import dataProduct from "./products.json" assert { type: "json" };
+    try {
+        const hospitalsList = JSON.parse(fs.readFileSync("./hospitals.json"));
+        const usersList = JSON.parse(fs.readFileSync("./users.json"));
+        const productsList = JSON.parse(fs.readFileSync("./products.json"));
 
-// -----end of importing----
+        await Hospital.insertMany(hospitalsList);
+        await User.insertMany(usersList);
+        await Product.insertMany(productsList);
+    } catch (e) {
+        console.log(e);
+    }
+}
 
-//--- async function to insert Data into MongoDB ----
-// sendDataIntoMongo();
-// async function sendDataIntoMongo() {
-// ---- prevents duplicates being added into Mongo when the app runs---
-// const deleteDuplicatesHosp = await Hospital.deleteMany();
-// const deleteDuplicatesUser = await User.deleteMany();
-// const deleteDuplicatesProd = await Product.deleteMany();
-//   try {
-//     const hospitalsList = JSON.parse(
-//       readFileSync("./DataMongoDb/hospitals.json")
-//     );
-//     const usersList = JSON.parse(readFileSync("./DataMongoDb/users.json"));
-//     const productsList = JSON.parse(
-//       readFileSync("./DataMongoDb/products.json")
-//     );
-//     const addHospitalsMongo = await Hospital.insertMany(hospitalsList);
-//     const addUsersMongo = await User.insertMany(usersList);
-//     const addProductMongo = await Product.insertMany(productsList);
-//   } catch (e) {
-//     console.log(e);
-//   }
-// }
-
-// ---- end of async function ----
+sendDataIntoMongo();
