@@ -46,3 +46,16 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.minus {
+  border-radius: 2rem;
+}
+
+.plus {
+  border-radius: 2rem;
+}
+
+.input {
+  margin-top: auto;
+  text-align: center;
+}

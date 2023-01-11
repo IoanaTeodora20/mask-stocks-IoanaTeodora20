@@ -102,16 +102,6 @@ function LoginForm() {
                   onClick={(event) => handleLoginClick(event)}>
                   Login
                 </Button>
-                {/* <div className="mt-5">
-                <h5> Don't have an account?</h5>
-                <Button
-                  href="/register"
-                  target="_self"
-                  variant="outline-danger">
-                  {" "}
-                  Register Here
-                </Button>
-              </div> */}
               </Form>
             </Card.Body>
           </Card>

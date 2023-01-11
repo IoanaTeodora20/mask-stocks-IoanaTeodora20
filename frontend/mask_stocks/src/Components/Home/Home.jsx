@@ -6,7 +6,6 @@ import Button from "react-bootstrap/Button";
 function Home() {
   const [hospitalData, setHospitalData] = useState([]);
   const [usersData, setUsersData] = useState([]);
-  const [productData, setProductData] = useState([]);
 
   const [user, setUser] = useState([]);
   const [loginState, setLoginState] = useState(null);
@@ -37,6 +36,7 @@ function Home() {
         });
     }
   }, [user]);
+
   return (
     <>
       <Header></Header>
@@ -53,7 +53,6 @@ function Home() {
         <br />
         {loginState && hospitalData ? (
           <>
-            {/* <br /> */}
             <HospitalTable list={hospitalData}></HospitalTable>
           </>
         ) : null}
@@ -63,7 +62,9 @@ function Home() {
         </h4>
         <br />
         <div className="buttons">
-          <Button variant="outline-light">Order</Button>
+          <Button variant="outline-light" href="/order">
+            Order
+          </Button>
         </div>
       </div>
     </>

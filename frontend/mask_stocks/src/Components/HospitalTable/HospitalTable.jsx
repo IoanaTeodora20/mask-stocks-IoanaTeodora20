@@ -1,7 +1,6 @@
 import Table from "react-bootstrap/Table";
 function HospitalTable({ list }) {
   let listHos = Array.from(list);
-  console.log(listHos);
   return (
     <div id="table">
       <Table responsive="sm" striped bordered hover variant="dark">

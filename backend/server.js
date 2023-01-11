@@ -31,6 +31,8 @@ app.use(
     //optionsuccessStatus solution for cors policy
   })
 );
+app.use(cookieParser(process.env.SESSION_SECRET));
+
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -38,7 +40,7 @@ app.use(
     saveUninitialized: false,
   })
 );
-app.use(cookieParser(process.env.SESSION_SECRET));
+
 app.use(passport.initialize());
 app.use(passport.session());
 require("./passport_config")(passport);
