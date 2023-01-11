@@ -12,17 +12,24 @@ function LoginForm() {
     password: "",
   });
   const [error, setError] = useState(false);
+
+  // ---- handleGoHome redirects us, onClick,towards the component Home ----
+
   const navigate = useNavigate();
   const handleGoHome = useCallback(
     () => navigate("/home", { replace: true }),
     [navigate]
   );
 
+  // ---- handleLoginData updates our DB with the loginForm Data ----
+
   const handleLoginData = (data) => {
     return setLoginData((previous) => {
       return { ...previous, ...data };
     });
   };
+
+  // ---- handleLoginClick(event) sends our LoginForm data into the server ----
 
   const handleLoginClick = (event) => {
     event.preventDefault();
@@ -50,7 +57,7 @@ function LoginForm() {
       <div style={{ backgroundColor: "#191919" }}>
         <br />
         <br />
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mt-2">
           <Card>
             <h3 className="mt-4 d-flex justify-content-center align-self-center">
               Login
@@ -73,7 +80,7 @@ function LoginForm() {
                     }
                   />
                 </Form.Group>
-                <br></br>
+                <br />
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Label>Password</Form.Label>
                   <Form.Control
@@ -86,7 +93,7 @@ function LoginForm() {
                 </Form.Group>
                 {error ? (
                   <>
-                    <br></br>
+                    <br />
                     <Form.Label> Wrong Credentials!</Form.Label>
                   </>
                 ) : (
@@ -95,7 +102,7 @@ function LoginForm() {
                 <Form.Group
                   className="mb-3"
                   controlId="formBasicCheckbox"></Form.Group>
-                <br></br>
+                <br />
                 <Button
                   variant="outline-danger"
                   type="submit"

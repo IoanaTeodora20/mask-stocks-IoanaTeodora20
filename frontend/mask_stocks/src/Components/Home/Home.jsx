@@ -5,10 +5,10 @@ import Button from "react-bootstrap/Button";
 
 function Home() {
   const [hospitalData, setHospitalData] = useState([]);
-  const [usersData, setUsersData] = useState([]);
-
   const [user, setUser] = useState([]);
   const [loginState, setLoginState] = useState(null);
+
+  // ---- this useEffect fetches our user object(the loginForm Data(in a nutshell)) and stores it ----
 
   useEffect(() => {
     fetch("http://127.0.0.1:9000/api/user", {
@@ -21,6 +21,9 @@ function Home() {
         setLoginState(data);
       });
   }, []);
+
+  /* ---- this useEffect() fetches our hospital data, if we have a user logged in,
+  remember, we need the user email to fetch only the right hospitals ---- */
 
   useEffect(() => {
     if (user) {

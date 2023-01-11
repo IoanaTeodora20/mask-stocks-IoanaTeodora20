@@ -12,6 +12,7 @@ function BasketTable() {
   const [loginState, setLoginState] = useState(null);
   const [user, setUser] = useState([]);
 
+  // ---- the first useEffect() stores our hospital data and shows it only if we have a user Logged in ----
   useEffect(() => {
     if (user) {
       fetch("http://127.0.0.1:9000/api/hospitalList", {
@@ -27,6 +28,7 @@ function BasketTable() {
     }
   }, [user]);
 
+  // ---- this useEffect() fetches our data from the server and stores it. setLoginState() stores whether we are logged in or not ----
   useEffect(() => {
     fetch("http://127.0.0.1:9000/api/user", {
       method: "GET",
@@ -60,12 +62,14 @@ function BasketTable() {
       });
   }, []);
 
+  console.log(totalPrice);
+  // ---- we need the loginState so our table will show only if we are logged in, and not before ----
+
   return (
     <>
       <Header></Header>
       {loginState && productData ? (
         <div style={{ backgroundColor: "#191919" }}>
-          <br />
           <br />
           <h3 className="heading">Your Order Details</h3>
           <br />

@@ -3,13 +3,15 @@ import Button from "react-bootstrap/Button";
 import Header from "../Header/Header";
 import { useState, useEffect } from "react";
 
-function ProductCard(onAdd) {
+function ProductCard() {
   const [productData, setProductData] = useState([]);
   const [loginState, setLoginState] = useState(null);
   const [cart, setCart] = useState(0);
   const [basketData, setBasketData] = useState(0);
   const [count, setCount] = useState(null);
   const [message, setMessage] = useState(null);
+
+  // ---- in useEffect()X4 I stored all the fetches needed to take and store the neccessary data ----
 
   useEffect(() => {
     fetch("http://127.0.0.1:9000/api/user", {
@@ -55,6 +57,8 @@ function ProductCard(onAdd) {
       .then((data) => console.log(data));
   });
 
+  // ---- handleMinuClick decrements our input value with 1 onClick ----
+
   const handleMinusClick = () => {
     if (count > 1) {
       setCount(count - 1);
@@ -64,6 +68,7 @@ function ProductCard(onAdd) {
     }
   };
 
+  // ---- handlePlusClick increments our input value with 1 onClick
   const handlePlusClick = () => {
     if (count === null || count === "") {
       setCount(1);
@@ -72,6 +77,8 @@ function ProductCard(onAdd) {
       setMessage(null);
     }
   };
+
+  // handleInputValueChange lets us choose how many items we want without having to just click on the - or + ----
 
   function handleInputValueChange(e) {
     e.preventDefault();
@@ -85,11 +92,13 @@ function ProductCard(onAdd) {
     }
   }
 
+  // ---- addItem updates our cart with the quantity from the input and calls calculateBasketPrice
   function addItem(newItem) {
-    // console.log(newItem, "New Itemm");
     setCart(newItem);
     calculateBasketPrice(newItem);
   }
+
+  // ---- calculateBasketPrice calculates our total price ----
 
   const calculateBasketPrice = async (cart) => {
     let price;
@@ -100,6 +109,8 @@ function ProductCard(onAdd) {
     let finalSumBasket = price * qty;
     setBasketData(finalSumBasket);
   };
+
+  // ---- SubmitQty, when Clicked, basically updates our qty in the cart ----
 
   const SubmitQty = (e) => {
     e.preventDefault();

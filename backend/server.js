@@ -19,6 +19,9 @@ const userData = require("./DataMongo/users.json");
 const Product = require("./DataSchema/productSchema");
 const productData = require("./DataMongo/products.json");
 
+const Mask_StockDetails = require("./DataSchema/stockSchema");
+const detailsData = require("./DataMongo/stockDetails.json");
+
 // ---- end of import ----
 
 const app = express();
@@ -65,12 +68,14 @@ async function saveDataMongo() {
     const deleteDupHosp = await Hospital.deleteMany();
     const deleteDupUser = await User.deleteMany();
     const deleteDupProd = await Product.deleteMany();
+    const deleteDupDet = await Mask_StockDetails.deleteMany();
 
     // --- the insert commands ----
 
     const hospitalList = await Hospital.insertMany(hospitalData);
     const userList = await User.insertMany(userData);
     const productList = await Product.insertMany(productData);
+    const detailsList = await Mask_StockDetails.insertMany(detailsData);
   } catch (e) {
     console.log(e);
   }

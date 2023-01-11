@@ -8,6 +8,8 @@ import { useNavigate } from "react-router-dom";
 function Header() {
   const [user, setUser] = useState([]);
 
+  // ---- this useEffect fetches our user object(the loginForm Data(in a nutshell)) and stores it ----
+
   useEffect(() => {
     fetch("http://127.0.0.1:9000/api/user", {
       method: "GET",
@@ -16,6 +18,9 @@ function Header() {
       .then((response) => response.json())
       .then((data) => setUser(data));
   }, []);
+
+  /* ---- this useEffect() fetches our hospital data, if we have a user logged in,
+  remember, we need the user email to fetch only the right hospitals ---- */
 
   useEffect(() => {
     if (user) {
@@ -30,6 +35,8 @@ function Header() {
     }
   }, [user]);
 
+  // ---- handleLogOut() deletes the user when clicked ----
+
   function handleLogOut(event) {
     event.preventDefault();
     fetch("http://127.0.0.1:9000/api/logout", {
@@ -43,6 +50,9 @@ function Header() {
         }
       });
   }
+
+  // ---- and logOut() takes us back to the first page ----
+
   const navigate = useNavigate();
   const logOut = useCallback(() => {
     navigate("/", { replace: true });
