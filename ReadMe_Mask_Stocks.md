@@ -2,7 +2,7 @@
 
 ## Description
 
-Mask-Stocks is a MERN stack application.
+Mask_Stocks is a MERN stack application.
 
 Features:
 
