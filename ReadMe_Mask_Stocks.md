@@ -18,6 +18,18 @@ Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-
 ```bash
 npm -i
 ```
+## Commands
+
+To start the server, open the server.js file in an integrated terminal and run:
+
+```bash
+npm start
+```
+To start the frontend, open the mask_stocks folder in an integrated terminal and run:
+
+```bash
+npm run dev
+```
 
 ## Visuals
 ![2023-05-22](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/0430a7b1-ab05-4a90-85b7-92541e1f1297)
