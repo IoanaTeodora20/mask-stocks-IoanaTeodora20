@@ -1,6 +1,4 @@
-# Name
-
-Mask_Stocks
+# Mask_Stocks
 
 ## Description
 
