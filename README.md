@@ -1,4 +1,4 @@
-# Mask Stock
+# Mask_Stocks
 
 ## Story
 
@@ -21,55 +21,44 @@ List of the hospitals:
 
 You have to create a web application where the hospitals' employee can login to their account and order new amount of masks.
 The hospitals paying for the order with bank transfer 15 days due date.
-The application should contain the following features: Automatically updated stock, order form, login and registration page, order history.
-The application have to care about the invoicing as well. Your client asked you to solve it with Billingo's API so you have to check the API's documentation for the information needed for generating invoices with Billingo API (you order form have to include all the necessary details).
-Don't forget that your Client's company is Hungarian so the Hungarian hospitals have to pay Hungarian TAX (VAT / ÁFA - 27%) but the hospitals form the other countries don't have to pay (if they have/set EU VAT Number).
+The application should contain the following features: Automatically updated stock, order form, login.
+The application have to care about the invoicing as well. 
 
-## What are you going to learn?
+## Description
 
-- recap React JS, Node JS, Express JS
-- use MongooseJS
-- store data with mongoDB
-- connect to an API on the server side (fetch GET/POST)
+Mask_Stocks is a MERN stack application.
 
-## Tasks
+Features:
 
-1. Create a noSQL database which able to store all the required data: Legal data of the hospitals. (Check Billingo API's documentation.) Accounts for the hospitals employees. (The users.) Orders and their details.
-    - The database contains all the 10 hospitals
-    - Each hospital's data contains all the legal data for issuing an invoice for the hospital
-    - Every hospital have at least one user account
-    - User accounts connected to one or two hospitals
-    - An invoice is generated for every order
-    - Every order is saved into the database
-    - The amount of currently available masks is stored in the database
-    - Every order affects the available amount of the masks
+- Users can login into their accounts;
+- Once logged in, users can see a list of the hospitals they are registered with;
+- Users can purchase masks for the hospitals they are registered with;
+- Upon submitting the hospital details when placing an order, the user can download an invoice.
 
-2. Connect to the Billingo API from the backend side, post all the orders to the API to generate invoices. Handling TAX / VAT is important!
-    - Every order generates an invoice in Billingo
-    - The tax is different for Hungarian hospitals than other EU hospitals
+## Installation
 
-3. Create a web based order form where the employees (users) can place orders on behalf of their hospitals. Secure the order form so only (the allowed) users could access to it. A users could see the orders of their hospitals only.
-    - The order form available only after login or registration
-    - The users are able to add new hospitals
-    - The users can see the hospitals data connected to their account
-    - The users can select from their hospitals for issuing the invoice
+Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and the command below to install all the packages on both frontend('\frontend\mask_stocks') and backend projects to run Mask_Stocks.
 
-## General requirements
+```bash
+npm -i
+```
+## Commands
 
-None
+To start the server, open the server.js file in an integrated terminal and run:
 
-## Hints
+```bash
+npm start
+```
+To start the frontend, open the mask_stocks folder in an integrated terminal and run:
 
-- Before you start the project, check the documentation of the Billingo API especially the required data for partner and invoice creation (build the hopsital database on those data)
-- Pay special attention to the format of all API values (string, number, date formats)
-- You can solve the registration and login with Passport.js
+```bash
+npm run dev
+```
 
-## Background materials
-
-- <i class="far fa-exclamation"></i> [Billingo API documentation](https://app.swaggerhub.com/apis/Billingo/Billingo)
-- <i class="far fa-exclamation"></i> [Passport JS](http://www.passportjs.org)
-- <i class="far fa-book-open"></i> [MongoDB - NoSQL database](https://www.mongodb.com/)
-- <i class="far fa-book-open"></i> [MongooseJS - MongoDB connector](https://mongoosejs.com/)
-- <i class="far fa-book-open"></i> [Simple CRUD app with Node, Express, and MongoDB](https://zellwk.com/blog/crud-express-mongodb)
-- <i class="far fa-book-open"></i> [Set up an Express.Js App With Passport.Js and Mongodb for Password Authentication](https://medium.com/swlh/set-up-an-express-js-app-with-passport-js-and-mongodb-for-password-authentication-6ea05d95335c)
-- <i class="far fa-book-open"></i> [Authenticate Users With Node ExpressJS and Passport.js](https://heynode.com/tutorial/authenticate-users-node-expressjs-and-passportjs)
+## Visuals
+![2023-05-22](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/0430a7b1-ab05-4a90-85b7-92541e1f1297)
+![2023-05-22 (1)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/cb9fa7fd-01ad-4fae-b806-a421849d59a8)
+![2023-05-22 (2)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/91257e3c-f5ee-440c-a608-1a1b7d80dccb)
+![2023-05-22 (4)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/41c5b115-e133-4fdb-a17e-45435deb99ad)
+![2023-05-22 (5)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/cb8909d4-2c5f-4107-b988-b875625ad935)
+![2023-05-22 (6)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/2a8fcd20-8378-472e-b14d-63e5e08d3837)
