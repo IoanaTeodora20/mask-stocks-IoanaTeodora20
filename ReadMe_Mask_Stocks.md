@@ -1,5 +1,29 @@
 # Mask_Stocks
 
+## Story
+
+Congratulations!
+Your developer business has a new client, one of the largest environmentally friendly reusable FFP2/KN95 mask supplier in Europe.
+Their company wants to create a new B2B website for European hospitals to make the order and delivery easier.
+Their stock is refilled on the first day of every month with 10.000 new masks.
+Your new client contracted with 10 hospitals and every hospitals have a dedicated person who is responsible to place the orders.
+List of the hospitals:
+- Pécsi Irgalmasrendi Kórház, Pécs (Hungary)
+- Miskolci Semmelweis Ignác Egészségügyi Központ és Egyetemi Oktatókórház, Miskolc (Hungary)
+- Szent Pantaleon Kórház Kht., Dunaújváros (Hungary)
+- Markhot Ferenc Oktatókórház és Rendelőintézet, Eger (Hungary)
+- Fővárosi Önkormányzat Heim Pál Gyermekkórház, Budapest (Hungary)
+- The Helios Hospital Berlin-Buch, Berlin (Germany)
+- The University Hospital Duesseldorf, Duesseldorf (Germany)
+- The University Hospital of Ludwig Maximilian University of Munich , Munich (Germany)
+- Rigas Austrumu Kliniskas Universitates, Riga (Latvia)
+- Karolinska University Hospital, Stockholm (Swened)
+
+You have to create a web application where the hospitals' employee can login to their account and order new amount of masks.
+The hospitals paying for the order with bank transfer 15 days due date.
+The application should contain the following features: Automatically updated stock, order form, login.
+The application have to care about the invoicing as well. 
+
 ## Description
 
 Mask_Stocks is a MERN stack application.
