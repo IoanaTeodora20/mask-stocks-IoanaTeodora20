@@ -18,6 +18,8 @@ function InvoiceForm() {
   const [productData, setProductData] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
   const [cartData, setCartData] = useState(0);
+  const [submitValid, setSubmitValid] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState("");
 
   // ---- in useEffect() I stored all the fetches needed to take and store the neccessary data ----
 
@@ -134,6 +136,8 @@ function InvoiceForm() {
       .then((data) => {
         console.log(data);
       });
+    setSubmitValid(true);
+    setSubmitMessage("Order Sucessfully Submitted!");
   };
 
   /* ---- getInvoiceClick(e) downloads our invoice and sends us back Home. Did this one because handleSubmitClick
@@ -176,7 +180,7 @@ function InvoiceForm() {
         {
           quantity: `${cartValue}`,
           description: `${productName}`,
-          "tax-rate": 6,
+          "tax-rate": 27,
           price: `${priceValue}`,
         },
       ],
@@ -261,14 +265,17 @@ function InvoiceForm() {
                 <Form.Group
                   className="mb-3"
                   controlId="formBasicCheckbox"></Form.Group>
+                {submitValid ? (
+                  <div style={{ color: "black" }}>{submitMessage}</div>
+                ) : null}
                 <div className="d-grid gap-2 mt-2">
                   <Button
-                    variant="outline-danger"
+                    variant="outline-dark"
                     onClick={(event) => handleSubmitClick(event)}>
                     Submit
                   </Button>
                   <Button
-                    variant="outline-danger"
+                    variant="outline-dark"
                     onClick={(event) => getInvoiceClick(event)}>
                     Download Invoice
                   </Button>

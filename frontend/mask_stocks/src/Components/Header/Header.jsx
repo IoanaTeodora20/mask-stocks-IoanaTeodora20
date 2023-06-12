@@ -31,7 +31,7 @@ function Header() {
         body: JSON.stringify(user),
       })
         .then((response) => response.json())
-        .then((data) => console.log(data.result));
+        .then((data) => console.log(data));
     }
   }, [user]);
 

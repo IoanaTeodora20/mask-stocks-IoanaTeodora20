@@ -104,7 +104,7 @@ function LoginForm() {
                   controlId="formBasicCheckbox"></Form.Group>
                 <br />
                 <Button
-                  variant="outline-danger"
+                  variant="outline-dark"
                   type="submit"
                   onClick={(event) => handleLoginClick(event)}>
                   Login
