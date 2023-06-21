@@ -56,9 +56,16 @@ npm run dev
 ```
 
 ## Visuals
-![2023-05-22](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/0430a7b1-ab05-4a90-85b7-92541e1f1297)
-![2023-05-22 (1)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/cb9fa7fd-01ad-4fae-b806-a421849d59a8)
-![2023-05-22 (2)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/91257e3c-f5ee-440c-a608-1a1b7d80dccb)
-![2023-05-22 (4)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/41c5b115-e133-4fdb-a17e-45435deb99ad)
-![2023-05-22 (5)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/cb8909d4-2c5f-4107-b988-b875625ad935)
-![2023-05-22 (6)](https://github.com/CodecoolGlobal/mask-stock-javascript-IoanaTeodora20/assets/108082444/2a8fcd20-8378-472e-b14d-63e5e08d3837)
+
+
+![2023-05-22](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/3d30897f-0e37-4a8e-95bf-085abc02211b)
+
+![2023-05-22 (1)](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/1da930cf-c7db-47fd-af21-968da5a043cc)
+
+![2023-05-22 (2)](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/6c102439-efe3-4c26-91c0-4fb5a71c9c0d)
+
+![2023-05-22 (4)](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/ec0c712e-d2dc-4194-ab64-ff280636b983)
+
+![2023-05-22 (5)](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/c0c8f884-b2d3-445f-9fa1-ccde664ae96d)
+
+![2023-05-22 (6)](https://github.com/IoanaTeodora20/mask-stocks-IoanaTeodora20/assets/108082444/d449d45d-c067-45d1-865b-b5980410b331)
